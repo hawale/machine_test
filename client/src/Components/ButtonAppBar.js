@@ -23,8 +23,8 @@ export default function ButtonAppBar() {
   }, []);
 
   const headerStyles = {
-    backgroundColor: "black", // Change to your preferred background color
-    color: "white", // Change to your preferred text color
+    backgroundColor: "black",
+    color: "white", 
     display: "flex",
     justifyContent: "space-between",
   };
@@ -37,7 +37,7 @@ export default function ButtonAppBar() {
   };
 
   const rightButtonStyles = {
-    marginLeft: "5px", // Adjust as needed
+    marginLeft: "5px", 
   };
 
   return (

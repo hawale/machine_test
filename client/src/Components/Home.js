@@ -17,9 +17,9 @@ const bannerStyle = {
     backgroundRepeat: "no-repeat",
     minHeight: "400px",
     display: "flex",
-    flexDirection: "column", // Updated to column
+    flexDirection: "column", 
     alignItems: "center",
-    justifyContent: "flex-start", // Updated to flex-start
+    justifyContent: "flex-start",
     color: "white",
     textAlign: "center",
   };
@@ -97,9 +97,6 @@ function Home() {
       <div style={bannerStyle}>
         <div className="home-text-section">
           <h1 className="primary-heading">Welcome to ZipKart</h1>
-          {/* <p className="primary-text">
-            Discover the latest trends in online shopping. Shop now for the best deals on a wide range of products.
-          </p> */}
         </div>
       </div>
       <div style={sliderContainerStyle}>

@@ -120,7 +120,7 @@ export default function Login({ setOpenLogin }) {
               variant="outlined"
               error={!!usernameErr}
               helperText={usernameErr}
-              style={inputStyle} // Add margin and width to the input field
+              style={inputStyle} 
             />
             <TextField
               value={password}
@@ -133,7 +133,7 @@ export default function Login({ setOpenLogin }) {
               variant="outlined"
               error={!!passwordErr}
               helperText={passwordErr}
-              style={inputStyle} // Add margin and width to the input field
+              style={inputStyle} 
               InputProps={{
                 endAdornment: (
                   <InputAdornment position="end">

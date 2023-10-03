@@ -23,16 +23,16 @@ Follow these steps to set up the application:
 
 1. Clone the GitHub repository:
 
-   git clone https://github.com/hawale/machine_test.git
+ ## `git clone https://github.com/hawale/machine_test.git`
 
 
 2. Navigate to the project directory:
 
-cd machine_test/server
+## `cd machine_test/server`
 
 3. Install the project dependencies:
 
-npm install
+## `npm install`
 
 4. Create a .env file in the project root directory and add the following environment variables:
 
@@ -48,11 +48,11 @@ To start the Node.js Machine Test Application, use one of the following npm scri
 
 Run in production mode:
 
-```npm start```
+## `npm start`
 
 Run in development mode with nodemon (automatically restarts on code changes):
 
-```npm run dev```
+## `npm run dev`
 
 The application will be accessible at http://localhost:3200.
 
@@ -66,6 +66,7 @@ The Node.js Machine Test Application provides the following API endpoints for ma
 Description: Register a new user.
 Method: POST
 Example Usage: Use this endpoint to create a new user account.
+
 /api/login
 Description: Authenticate a user and receive a JWT token.
 Method: POST
