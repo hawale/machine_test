@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "d994716d-3ad1-481b-97f5-e09df68acb1b",
+		"name": "machine_test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "18048422",
+		"_collection_link": "https://dark-meteor-746777.postman.co/workspace/local~8ab971aa-687c-4a1e-8981-8ef0a72409e7/collection/18048422-d994716d-3ad1-481b-97f5-e09df68acb1b?action=share&source=collection_link&creator=18048422"
+	},
+	"item": [
+		{
+			"name": "SignUp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n    \"userName\": \"user01\",\r\n    \"password\": \"3473fhjkhfGG*\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/login"
+			},
+			"response": []
+		},
+		{
+			"name": "LogIn",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n    \"userName\": \"user01\",\r\n    \"password\": \"3473fhjkhfGG*\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/login"
+			},
+			"response": []
+		}
+	]
+}

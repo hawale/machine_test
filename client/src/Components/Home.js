@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import BannerBackground from "../Assets/home-banner-background.webp";
-import Slider1 from "../Assets/slider1.avif";
-import Slider2 from "../Assets/slider2.avif";
-import Slider3 from "../Assets/slider3.avif";
-import homeImg1 from "../Assets/home_img_1.avif";
-import homeImg2 from "../Assets/home_img_2.avif";
-import homeImg3 from "../Assets/home_img_3.avif";
+import Slider1 from "../Assets/slider1.jpg";
+import Slider2 from "../Assets/slider2.jpg";
+import Slider3 from "../Assets/slider3.jpg";
+import homeImg1 from "../Assets/home_img_1.jpg";
+import homeImg2 from "../Assets/home_img_2.jpg";
+import homeImg3 from "../Assets/home_img_3.jpg";
 import { useNavigate } from "react-router-dom";
 
 const sliderImages = [Slider1, Slider2, Slider3];
@@ -38,7 +38,7 @@ const sliderImageStyle = {
   objectPosition: "center",
   transition: "transform 0.5s ease",
   display: "block",
-  position: "absolute", // Make images absolute within the container
+  position: "absolute", 
 };
 
 const sliderNavStyle = {

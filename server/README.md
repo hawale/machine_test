@@ -73,6 +73,10 @@ Method: POST
 Example Usage: Use this endpoint to log in and receive an authentication token.
 You can use tools like Postman or curl to interact with these endpoints.
 
+## Postman Collection
+machine_test.postman_collection.json
+
+
 License
 This project is licensed under the ISC License - see the LICENSE file for details.
 

@@ -8,11 +8,13 @@ function Product() {
   const [categories, setCategories] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("");
 
+  // find token from local storage
   const token = localStorage.getItem("token");
   if (!token) {
     navigate("/");
   }
   
+  // Fetch product from api
   const getProducts = () => {
     const token = localStorage.getItem("token");
     const headers = {
@@ -30,6 +32,7 @@ function Product() {
       });
   };
 
+  // fetch category 
   const getCategories = () => {
     const token = localStorage.getItem("token");
     const headers = {
@@ -66,6 +69,7 @@ function Product() {
           width: "100%",
           boxSizing: "border-box",
           padding: "5px",
+          textTransform:"capitalize"
         }}
       >
         <div

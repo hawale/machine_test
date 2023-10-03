@@ -18,6 +18,7 @@ export default function ButtonAppBar() {
 
   React.useEffect(() => {
     if (!token) {
+      // Navigate to home page
       navigate("/");
     }
   }, []);
