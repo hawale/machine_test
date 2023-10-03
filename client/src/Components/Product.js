@@ -121,6 +121,8 @@ function Product() {
           alignItems: "center",
           width: "100%",
           flexWrap: "wrap",
+          marginTop:"20px",
+          marginBottom:"20px"
         }}
       >
         {products?.length > 0 &&
@@ -169,18 +171,17 @@ function Product() {
                   marginBottom: "10px",
                 }}
               >
-                <h4
+                <p
                   style={{
-                    fontSize: "14px",
+                    fontSize: "20px",
                     overflow: "hidden",
                     whiteSpace: "nowrap",
                     textOverflow: "ellipsis",
-                    margin: "0",
+                    margin: "10",
                   }}
                 >
-                  {item?.name}
-                </h4>
-                <p>{item?.description}</p>
+                  {item?.title}
+                </p>
                 <span
                   style={{
                     width: "100%",
